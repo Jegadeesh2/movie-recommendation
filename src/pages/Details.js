@@ -37,6 +37,9 @@ const Details = () => {
                 ? noPoster
                 : image_api + detail.poster_path
             }
+
+            alt="No Poster"
+
             className="detail-poster"
           />
         </div>

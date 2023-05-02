@@ -10,7 +10,7 @@ const Movie = ({movies}) => {
     {movies.map((movie)=>(
     <div className="card" key={movie.id}>
     <Link to={`/details/${movie.id}`}>
-    <img src={movie.poster_path===null ? noPoster : image_api + movie.poster_path} className="poster-image" />
+    <img src={movie.poster_path===null ? noPoster : image_api + movie.poster_path} alt='No Poster' className="poster-image" />
     <div className="movie-dsc">
     <span className='movie-title'>{movie.title}</span>
     <p>{movie.release_date}</p>
