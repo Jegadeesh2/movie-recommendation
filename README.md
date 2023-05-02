@@ -1,6 +1,6 @@
 # Movie recommendation app
 
-### (Pages)
+## (Pages)
 
 ### -Home
 ### -Search
