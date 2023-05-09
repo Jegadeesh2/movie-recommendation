@@ -255,3 +255,18 @@ letter-spacing: 0.5px;
 .error-to-home-link:hover{
   font-size: 20px;
 }
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 900px) {
+.details{
+  display: flex;
+  flex-direction: column;
+}
+.detail-poster{
+  display: flex;
+  height: auto;
+  margin: auto;
+  align-items: center;
+}
+}
